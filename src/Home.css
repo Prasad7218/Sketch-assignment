@@ -1,0 +1,28 @@
+.card{
+  height:400px;
+  width:300px;
+  border-style:outset;
+  padding: 20px;
+  display:grid;
+  grid-template-areas:'h1'
+}
+.card1{
+  grid-area:h1;
+}
+.content{
+  text-align:center;
+}
+
+.img2{
+  height:180px;
+  width:300px;
+  padding:0px;
+}
+
+.container{
+   margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
